@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaMedium, FaLinkedin } from "react-icons/fa";
 
 import styles from "../styles/home.module.scss";
 import commonStyles from "../styles/common.module.scss";
@@ -82,12 +82,12 @@ export default function Homepage() {
             </li>
             <li>
               <a
-                href="https://github.com/hunchoweb"
+                href="http://medium.com/@odjetega"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Go to Tega's GitHub"
+                title="Go to Tega's Medium"
               >
-                <FaGithub />
+                <FaMedium />
                 <span className={commonStyles.hiddenText}>GitHub</span>
               </a>
             </li>

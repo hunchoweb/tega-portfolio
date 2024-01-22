@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaMedium } from "react-icons/fa";
 
 import styles from "../styles/header.module.scss";
 import commonStyles from "../styles/common.module.scss";
@@ -29,13 +29,13 @@ export default function Header({ logoLink }: HeaderProps) {
             </li>
             <li>
               <a
-                href="https://github.com/hunchoweb"
+                href="http://medium.com/@odjetega"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Go to Huncho's GitHub"
+                title="Go to Tega's Medium"
               >
-                <FaGithub />
-                <span className={commonStyles.hiddenText}>GitHub</span>
+                <FaMedium />
+                <span className={commonStyles.hiddenText}>Medium</span>
               </a>
             </li>
             <li>
