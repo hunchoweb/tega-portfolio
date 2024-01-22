@@ -1,12 +1,6 @@
 # Portfolio Site
 Showcases my work and the experience I have in web development. 
 
-**Link to live verison [here](https://agrattan.com/)**
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/51346343/110669494-6129ad00-819a-11eb-97e9-c58892fa4f4d.png" alt="portfolio-site">
-</p>
-
 ## Getting Started
 
 First, run the development server:
