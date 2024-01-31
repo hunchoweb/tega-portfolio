@@ -21,9 +21,9 @@ export default function Homepage() {
           <section className={styles.hero}>
             <div className={styles.cta}>
               <h1 id="title" className={styles.title}>
-                I create
-                <span className={commonStyles.playful}> playful </span>{" "}
-                experiences.
+                I derive insight and trends from
+                <span className={commonStyles.playful}> raw data </span>{" "}
+                to inform decision making.
               </h1>
               <div id="portraitContainer" className={styles.portraitContainer}>
                 <Image
@@ -38,23 +38,45 @@ export default function Homepage() {
               Tega Odje / Data Analyst
             </p>
           </section>
+
           <section
             id="blogPreviewContainer"
             className={styles.blogPreviewContainer}
           >
-            <h2>About Me</h2>
+            <br />
+            <br />
             <p>
-              In my role as an Entry Level Data Analyst, I am dedicated to advancing 
-              in a position that encourages collaborative processes and leverages 
-              business intelligence for effective decision-making. I am particularly 
-              drawn to projects involving database creation and the formulation of 
-              complex queries to extract valuable insights from diverse datasets. <br />
-              <br /> My commitment to continuous learning is driven by a desire to enhance my 
-              skills and stay at the forefront of the ever-evolving field of data analytics. 
-              With a keen eye for detail and a proactive approach, I aim to ensure accuracy 
-              and precision in every analytical endeavor.
+              The power of a Data Analyst lies within understanding the basic concepts of manipulating 
+              data and using the appropriate tools to answer well structured and measurable business problems. 
+              My name is Tega Odje, I love working on projects that facilitate collaborative processes. 
+              Welcome to my portfolio.
             </p>
+            <a 
+              href="mailto:odjetega@gmail.com"
+            >
+              <h3>
+                Contact Me
+              </h3>
+            </a>
           </section>
+
+          <section
+            id="blogPreviewContainer"
+            className={styles.blogPreviewContainer}
+          >
+            <h2>Soft Skills</h2>
+            <ul>
+              <li>Empathy</li>
+              <li>EPIC commission frameworks </li>
+              <li>SMART question frame works</li>
+            </ul>
+            <ul>
+              <li>Problem solving and critical thinking </li>
+              <li>Collaboration</li>
+            </ul>
+          </section>
+          <br />
+
           <section className={styles.projectContainer} id="projects">
             <div className={styles.projectTitleContainer}>
               <h2>My Projects</h2>
@@ -66,10 +88,18 @@ export default function Homepage() {
               ))}
             </div>
           </section>
+          
         </main>
         <footer>
           <h2>Connect with Me</h2>
           <ul id="footerLinks" className={styles.footerLinks}>
+            <li>
+              <a 
+                href="mailto:odjetega@gmail.com"
+              >
+                Contact Me
+              </a>
+            </li>
             <li>
               <a
                 href="https://docs.google.com/document/d/1fZQrCyHd3f-tNPjFWbqDO8hIzaKKJ6MLiyDCortuFcI/"

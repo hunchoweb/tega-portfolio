@@ -168,7 +168,7 @@
 
     ul {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: flex-start;
       align-items: flex-start;
       gap: 1rem;
@@ -176,47 +176,40 @@
 
       li {
         display: block;
-
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 1rem;
+        padding: 1rem;
+      }
+    }
         a {
           color: white;
           display: block;
           text-decoration: none;
           border: 2px solid white;
           border-radius: 1rem;
+          margin: 2rem 0;
           padding: 1rem;
           transition-property: background-color, color;
           transition-duration: 0.3s;
           transition-timing-function: ease;
-
+          width: fit-content;
+    
           &:hover {
             background-color: white;
             color: $black;
           }
-
-          &:hover h3 {
-            text-decoration: underline;
-          }
-
+    
           h3 {
             font-size: 1rem;
-            margin-bottom: 0.5rem;
             font-weight: bold;
-
+    
             @media (min-width: 768px) {
               font-size: 1.2rem;
             }
           }
-
-          p {
-            font-size: 0.875rem;
-
-            @media (min-width: 768px) {
-              font-size: 1rem;
-            }
-          }
         }
-      }
-    }
 
     p {
       font-size: 1.2rem;

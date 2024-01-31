@@ -14,9 +14,16 @@ export default function Header({ logoLink }: HeaderProps) {
       <nav className={styles.nav}>
         <div className={styles.spaceBetween}>
           <Link href={logoLink} className={styles.logo}>
-            OD
+            TO
           </Link>
           <ul className={styles.navList}>
+            <li>
+              <a 
+                href="mailto:odjetega@gmail.com"
+              >
+                Contact Me
+              </a>
+            </li>
             <li>
               <a
                 href="https://docs.google.com/document/d/1fZQrCyHd3f-tNPjFWbqDO8hIzaKKJ6MLiyDCortuFcI/"
